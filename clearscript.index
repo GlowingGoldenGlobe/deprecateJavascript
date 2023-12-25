@@ -1,0 +1,182 @@
+<!--url goes here-->
+<!DOCTYPE html><html><head><style>div {width: 80%; height: 50%; margin: 0 auto;} textarea {width: 100%; height: 100%; resize: none; outline: 0;}</style></head><title></title><body><div><textarea>
+
+Note: cleartext (clearsyntax) computer programing language
+
+
+
+
+Summary
+
+Note:
+N:
+x = This is some text. "This is some more text." And, these three sentences are part of the same continuous string.
+x = I(1)
+x = DN(3.14)
+x = B(true)
+x = L(): I(1) ',' I(5) ',' L(): DN(9.17) ',' Her brother said, "That's a car." ',' DN(5.33) L(E). ',' "Hi! World!"
+x = Length(x)
+x = F(parameters = null):
+  x = This is a variable inside of a function - it has local scope.
+  N: global x     #if python programming, which this isn't, therefore, as follows:
+  G(): x
+  N: Now, variable x has global scope, and it's making an error because it's a function variable name calling itself.
+y = DN(2.79)
+x = F():
+  G(): y
+  N: Print y to the terminal window, as follows:
+  P(): y
+  args = L(): y + 1 ',' DN(1.76)
+  return args
+Loop(if x in range(1 thru 5) ):
+  P(x)
+  x += 1
+N: some commands to be used about Loop():     , as follows:
+  break
+  continue
+N: concatenate string S(): ... S(E).   or multi-line string (default) S(M): ... S().
+x = Some text+():, and, then, some more text.
+N: +(): is the concatenate command, which can be altered, temporarily, per command line, as follows:
+N: To alter the command designation for the next command line:
++(D):
+  varAddSomethingElse():
+Note: Also, about string command name designation, as follows:
+S(D):
+  SomeBeginning():
+  StringEnd().
+N: Dictionary (only when absolutely necessary)
+x = D(): keyName1 ':' This is some value about key name 1. ',' key_Name_2':'B(true)
+N: class
+x = C():
+    N: code...
+N: tuple
+x = T(): I(12) ',' "Hello! Do you have the time?"
+
+
+  
+
+
+
+
+
+  
+#Python function error, example, like the clearsyntax error example, above.
+def function_name():
+  function_name()
+  return None
+
+
+
+
+
+
+N: End of the Summary
+
+Note: cleartext (clearsyntax) computer programing language
+Note: Description
+
+CT--->
+CT--->
+
+1. Do not have to comment quotation marks.
+
+x = string - This is a string.
+
+N: concatenation: string
+
+Concatenate():
+  N: User designation of concatenation sequence of characters allowed. The default is, as follows:
+  +():
+  
+x_2 = This is a string = some other text goes here. +():This is some more text. +():3.14159678
+
+N: Math: addition
+x_3 = DN(10.75)
+x_4 = I(2)
+x_4 = DN(x_4)
+x_5 = x_3 + x_4
+
+N: Number-Categeroy: Integer
+y = I(0)
+z = DN(3.14159678)
+
+N: String Designation
+
+S():
+
+N: Multi-Line String; Also, S(M): is the default.
+
+S(M):This is some text. And,
+this is some more
+text.
+ As you can see - this 
+is some more text.S().
+
+N: Temporarily set a String() command designation, as follows:
+
+S(D):
+  SomeOtherName():
+  SomeOtherEndName().
+  
+S(R).
+N: or
+S(R):
+N: or
+S(D):
+  S():
+  S().
+Note: User defined String() Alternative-Designation about symbols or characters in-between the function curve brackets is disallowed, for example: S(X):     is disallowed.
+  
+f = F():
+ N: code...
+ Note: code...
+ return args
+a = L():
+  var_1 = This is a string.
+  var_2 = I(1)
+  var_3 = DN(3.14)
+  var_c = L():
+    var_1b = This is, also, a string.
+    var_2b = This another string, in this new list.
+    var_3b = DN(7.25)
+    var_4b = B(true)
+    var_5b = B(false)
+N: This is a comment.
+Note: This is, also, a comment.
+N: Notice how the list([]) is built using a function (): symbol, with new lines to designate each list item, and no commas to designate separation between items in a list.
+b = L(): item_1 ',' item_2 ',' item_3
+N: Dictionary
+Note: I don't see why they want to use a dictionary.
+c = D(): key_name_1 ':' value one here. ',' key_name_2 ':' DN(1.5)
+
+2. Do not have dictionaries, unless they have to be used.
+
+3. Do not have classes, unless they have to be used.
+
+N: class ()
+N: the class() command is written as, var_name = C():
+N: i.e., the class command is written as, C():     , as follows:
+a = C():
+ self...
+ etc. see Python classes
+
+4. Do not have tuples, unless they have to be used..
+
+N: loops
+var_list = L(): DN(3.14159678) ',' I(2) ',' She said he said, "This looks well."
+var_length = Length(var_list)
+Loop(if x in range(1 thru var_length) ):
+  x = (x + 1)
+  N: Print is designated by the command P():
+  P(): x
+  
+  
+  
+  
+  
+  
+  
+  
+  
+N: Bottom of this Document
+</textarea></div></body></html>
