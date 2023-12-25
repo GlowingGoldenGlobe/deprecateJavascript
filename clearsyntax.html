@@ -3,6 +3,13 @@
 
 Note: cleartext (clearsyntax) computer programing language
 
+Contents
+Summary
+Description
+
+Foreword
+Please see explanations in the "Description" section. Summary: where the contents are summarized. Description: where a description about the computer programming language desired is.
+
 
 
 
@@ -28,9 +35,11 @@ x = F():
   P(): y
   args = L(): y + 1 ',' DN(1.76)
   return args
+del x
+x = 0
 Loop(if x in range(1 thru 5) ):
-  P(x)
   x += 1
+  P(x)
 N: some commands to be used about Loop():     , as follows:
   break
   continue
@@ -90,15 +99,16 @@ Concatenate():
   
 x_2 = This is a string = some other text goes here. +():This is some more text. +():3.14159678
 
+N: Number-Categeroy: Integer
+y = I(0)
+N: Number-Categeroy: Decimal Number
+z = DN(3.14159678)
+  
 N: Math: addition
 x_3 = DN(10.75)
 x_4 = I(2)
 x_4 = DN(x_4)
 x_5 = x_3 + x_4
-
-N: Number-Categeroy: Integer
-y = I(0)
-z = DN(3.14159678)
 
 N: String Designation
 
@@ -112,11 +122,18 @@ text.
  As you can see - this 
 is some more text.S().
 
-N: Temporarily set a String() command designation, as follows:
+S():Another example - This is
+ another example. The default takes care
+the multi-line string script processing, as long as the end of a multi-line
+ string includes the string end command.S().
+
+N: Temporarily set a String() command designation ( (D) abbr. "Variable Name Designation"), as follows:
 
 S(D):
   SomeOtherName():
   SomeOtherEndName().
+
+N: Reset the variable name designation, or, it will auto-reset after the next command is run (on the page, where, as you may know, script in Python is run from top to bottom).
   
 S(R).
 N: or
