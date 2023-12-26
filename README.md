@@ -12,5 +12,4 @@ Deprecate JavaScript. JavaScript runs on Python. Python can do everything, excep
   <li>December 25, 2023; 06 37 PM CST (Mobile, Alabama)</li>
   <li>Modifications: File Upload WIP (Work-In-Progress), called, "ClearSyntax_Instructions.html".</li>
   <li>Link to new file web-page: <a href="https://glowinggoldenglobe.github.io/deprecateJavascript/ClearSyntax_Instructions.html">Instructions Page</a>.</li>
-  <li></li>
 </ul>
