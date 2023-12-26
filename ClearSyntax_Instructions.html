@@ -1,0 +1,557 @@
+<!--https://glowinggoldenglobe.github.io/deprecateJavascript/ClearSyntax_Instructions.html-->
+<!DOCTYPE html><html><head><style>body {width: 100%; height: 100%; margin: 0 auto;} div { width: 80%; height: 500px; margin: 0 auto;} textarea {width: 100%; height: 100%; resize: none; outline: 0;}</style></head><title>ClearSyntax: Instructions</title><body><div><p>Beta</p><p>WIP (Work-In-Progress)</p></p></p><textarea spellcheck="false">
+
+  Clear Syntax
+  
+  Instructions
+
+  Note: ClearSyntax (also, plausible: ClearText) computer programing language
+
+
+
+
+
+
+Note: ClearSyntax Computer Programming Language
+
+
+
+
+Contents
+Foreword
+Part 1, as follows:
+Section 1     String Command
+Section 2     Integer Command
+Section 3     Decimal Numeral Command
+Section 4     List Command
+Section 5     Print Command
+Section 6     Function Command
+Section 7     Concatenate Command
+Section 8     Math Commands
+Section 9     Conditional Command
+Section 10    Loop Command
+Part 2, as follows:
+Section 11    Tuple Command
+Section 12    Dictionary Command
+Section 13    Class Command
+Section 14    Variable Global Scope Command
+Section 15    
+Section 16    
+Section 17    
+Section 18    
+Section 19   
+Section 20    
+Section 21    
+Ending Section: Links: Summary Page
+
+
+
+
+
+Foreword
+When there are multiple examples, per generality, use the first example script lines format about how you write your scripts, where the reason is because it will make a more uniform coding about the many people reading writing code in the world, and many people reading other people's script documents and excerpts in the world.
+
+
+
+
+
+
+Section 1     String Command
+
+
+
+
+
+Note: String
+S():This is a string.
+
+
+
+
+
+Note: Variable
+x = This is a string.
+
+
+
+
+
+
+x = S():This
+is
+a string on multiple
+lines.S().
+
+
+
+
+
+
+Note: It looks like (it seems that) "M" about S(M): is never necessary.
+x = S(M):This
+is
+a string on multiple
+lines, and "M" about x = S(M): is a
+default.S().
+
+
+
+
+
+x = S():This is a string on a single line.
+x = This is a string on a single line. The first space is after the equals sign is not processed as a variable assignment value. The space below, between this variable line and the next command line is not assigned to this variable as a part of the variable value, and the reason is because this string is not ended with the string end syntax command.
+
+x = This is a string.
+
+
+
+
+
+Section 2     Integer Command
+
+
+
+
+
+x = 0
+x = 1
+
+
+
+
+
+Note: Integers don't have decimal places.
+
+
+
+
+
+Note: A numerical value assigned to a variable is processed as a number about mathematical quantity, only if alpha numeric characters are not present in the value description. "value description" explanation: where x = 0, x is the variable name, and 0 is the value assignment, since it's a description about a value about a variable, I described, above, as a "value description" (one might say, as per plain English).
+
+
+
+
+
+x = 1
+y = 1
+a = x + y
+
+
+
+
+
+Note: Below, the type of the variable x is an integer type of variable, and it's the same as the type of the variable y.
+x = 1
+y = I(1)
+a = I(x) + I(y)
+
+
+
+
+
+
+Section 3     Decimal Numeral Command
+
+
+
+
+
+Note: (1) x is re-assigned a value. (2) Both of the values assigned were the variable type "Decimal Numeral" - designated as DN.
+x = 1.254
+x = DN(3.14159678)
+
+
+
+
+
+
+Section 4     List Command
+
+
+
+
+
+Note: (1) A list is a variable which can hold many variables. (2) They can be written in a line, where they are each separated by ',' . (3) Or, they can be written on multiple lines where each new line is at least one blank space (space-bar key space value) distant from the left vertical alignment with the variable name declaration place associated with the value. Example, as follows:
+x = L(): 1 ',' 2
+x = L():
+ 1
+ 2
+x = L():1','2
+x = L():Text','Some more text.
+x = L(): 1 ',' This is some text.
+x = L():
+ I(7)
+ This is some text.
+x = L():S():This
+ is a multi-line
+ string.S().
+
+
+
+
+
+
+
+Section 5     Print Command
+
+
+
+
+Note: Print is designated as P, and the command is written as P():
+x = text is on this line "Hello!"
+P(): x
+
+
+
+
+x = "Hello"
+y = 1089.135
+P():
+ x
+ y
+
+
+
+
+
+Section 6     Function Command
+
+
+
+
+
+
+x = F():
+    Note: code...
+    return null
+    
+    
+    
+
+
+
+h = F(parameters):
+    
+    a = 0
+    x = parameters + 1
+    
+    return x
+  
+y = 8  
+x(y)
+
+
+
+
+
+
+Note: Variables sent to a function when calling a function are often called, arguments, arg or args.
+args = 8
+x(args)
+y = x(args)
+P(): y
+    
+
+
+
+    
+    
+Note: Variables returned in a function return command are, also, often called, arguments, arg or args.
+x = F():
+  y = 1
+  N: To print y to the terminal window, run the following command:
+  P(): y
+  args = L(): y + 1 ',' DN(1.76)
+  return args
+
+
+
+
+
+
+Section 7     Concatenate Command
+
+
+
+
+
+x = text values here
+y = more text in a line, here
+a = x +(): y
+
+P():
+    a
+
+N: concatenate string S(): ...    or multi-line string (default) S(): ... S().
+x = Some text+():, and, then, some more text.
+N: +(): is the concatenate command, which can be altered, temporarily, per command line, as follows:
+N: To alter the command designation for the next command line:
++(D):
+  varAddSomethingElse():
+Note: Also, about string command name designation, as follows:
+S(D):
+  SomeBeginning():
+  StringEnd().
+
+
+
+
+
+x = 8
+y = text
+
+x = S(): 8
+a = x +(): y
+
+P():
+    a
+
+
+
+
+
+
+x = 8.95
+y = text .
+a = y +(): S(): x
+
+P():
+    a
+
+
+
+
+    
+
+Section 8     Math Commands
+
+
+
+
+Note: It's like math.
+
+
+
+
+a = 1.7
+b = 3.14
+
+r = a + b
+
+x = ( a - b )
+
+h = ( a + b ) * 2
+
+o = ( a + b ) / 2
+
+P():
+
+    a + b
+
+P():
+
+    r
+    x
+    h
+    o
+
+
+
+
+
+
+Section 9     Conditional Command
+
+
+
+
+
+If():
+  Note: then...
+
+
+
+
+x = 8
+y = 1
+If(y != x):
+ P(): y doesn't equal x.
+ P(): B(false)
+
+
+
+
+x = 1
+y = 1
+If(x != y):
+    P():B(false)
+ElseIf():
+    P():B(true)
+
+
+
+
+
+x = 1
+y = 1
+If( x = ( y + 1 ) ):
+    P(): B ( true )
+ElseIf( x == y ):
+    P(): 
+        x is y.
+        B ( false )
+
+
+
+
+
+
+Section 10    Loop Command
+
+
+
+
+
+
+Loop(if x in range(1 thru 5) ):
+  P(x)
+  x += 1
+  
+  
+  
+  
+  
+N: some commands to be used about Loop():     , as follows:
+  break
+  continue
+  
+  
+  
+  
+  
+Loop():
+    If():
+        break
+    ElseIf():
+        continue
+
+
+
+
+N: There must be criteria written in the Loop(...): command at "...".
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+x = F():
+  G(): y
+  N: Print y to the terminal window, as follows:
+  P(): y
+  args = L(): y + 1 ',' DN(1.76)
+  return args
+
+
+
+
+
+
+Note: Value Assignment to a Variable Name
+x = A variable assigned an alpha numeric character(s) value.
+
+
+
+
+
+Note: Value Assignment to a Variable Name
+, where "x", a character or set of characters, preceding any first equals sign 
+
+
+
+
+
+Note:
+
+
+
+
+
+x = I(1)
+x = DN(3.14)
+x = B(true)
+x = L(): I(1) ',' I(5) ',' L(): DN(9.17) ',' Her brother said, "That's a car." ',' DN(5.33) L(E). ',' "Hi! World!"
+x = Length(x)
+x = F(parameters = null):
+  x = This is a variable inside of a function - it has local scope.
+  N: global x     #if python programming, which this isn't, therefore, as follows:
+  G(): x
+  N: Now, variable x has global scope, and it's making an error because it's a function variable name calling itself.
+y = DN(2.79)
+x = F():
+  G(): y
+  N: Print y to the terminal window, as follows:
+  P(): y
+  args = L(): y + 1 ',' DN(1.76)
+  return args
+Loop(if x in range(1 thru 5) ):
+  P(x)
+  x += 1
+N: some commands to be used about Loop():     , as follows:
+  break
+  continue
+N: concatenate string S(): ...    or multi-line string (default) S(): ... S().
+x = Some text+():, and, then, some more text.
+N: +(): is the concatenate command, which can be altered, temporarily, per command line, as follows:
+N: To alter the command designation for the next command line:
++(D):
+  varAddSomethingElse():
+Note: Also, about string command name designation, as follows:
+S(D):
+  SomeBeginning():
+  StringEnd().
+N: Dictionary (only when absolutely necessary)
+x = D(): keyName1 ':' This is some value about key name 1. ',' key_Name_2':'B(true)
+N: class
+x = C():
+    N: code...
+N: tuple
+x = T(): I(12) ',' "Hello! Do you have the time?"
+
+
+
+
+
+
+
+
+N: WIP (Work-In-Progress)
+
+N: Variable Type
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+N: Bottom of this Document
+</textarea></div></body></html>
